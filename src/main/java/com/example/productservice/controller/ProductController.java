@@ -1,15 +1,10 @@
 package com.example.productservice.controller;
 
-import com.example.productservice.dto.ProductRequest;
 import com.example.productservice.model.Category;
 import com.example.productservice.model.Product;
 import com.example.productservice.service.CategoryService;
 import com.example.productservice.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.data.annotation.AccessType;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;

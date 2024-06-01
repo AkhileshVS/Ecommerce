@@ -1,6 +1,5 @@
 package com.example.productservice.controller;
 
-import com.example.productservice.Repository.CategoryRepository;
 import com.example.productservice.model.Category;
 import com.example.productservice.service.CategoryService;
 import org.springframework.web.bind.annotation.*;
